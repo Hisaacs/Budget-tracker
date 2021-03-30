@@ -8,15 +8,15 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
 
 var transactionSeed = [
   {
-    name: "Holiday",
+    name: "Vacation",
     value: 200,
   },
   {
-    name: "Medical",
-    value: 1000,
+    name: "Bootcamp",
+    value: 4000,
   },
   {
-    name: "fast-food",
+    name: "food",
     value: 120,
   },
   {

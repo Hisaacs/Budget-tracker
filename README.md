@@ -1,70 +1,107 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+# Budget Tracker
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+## Preview
+## Deployed Link
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+## Table of Contents
 
-Offline Functionality:
+- [Preview](#preview)
 
-  * Enter deposits offline
+- [Deployed Link](#deployed-link)
 
-  * Enter expenses offline
+- [User Story](#user-story)
 
-When brought back online:
+- [Business Context](#business-context)
 
-  * Offline entries should be added to tracker.
+- [Acceptance Criteria](#acceptance-criteria)
+
+- [Technologies Used](#technologies-used)
+
+- [Usage](#usage)
+
+
+- [Questions](#questions)
 
 ## User Story
+
+```
 AS AN avid traveller
 I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
 SO THAT my account balance is accurate when I am traveling
+```
 
 ## Business Context
 
+```
 Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
-
+```
 
 ## Acceptance Criteria
+
+```
 GIVEN a user is on Budget App without an internet connection
 WHEN the user inputs a withdrawal or deposit
 THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+```
 
-- - -
+## Technologies Used
 
-## Commit Early and Often
+**Languages:** Node.js, HTML, CSS
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+**Databases:** Robo 3T, MongoDB Atlas
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+**Dependencies:** Mongoose, Express, Morgan
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+**Version Control:** GitHub
 
-* Follow these guidelines for committing:
+**Cloud Platform:** Heroku
 
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+## Usage
 
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+To install necessary dependencies, run the following command:
 
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
+```
+npm install
+```
 
-  * Test your application before you commit to ensure functionality at every step in the development process
+To add dummy data, run the following command:
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+```
+npm run seed
+```
 
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
+To see the app functionality, run the following command:
 
-## Submission on BCS
+```
+npm start
+```
 
-* You are required to submit the following:
+Follow these instructions to install a PWA for your specific smartphone OS:
 
-  * the URL to the deployed application
+- iOs:
 
-  * the URL to the Github repository
+  - 1. Navigate to Heroku
 
-- - -
+  - 2. Tap the Share button in Safari.
 
-## Hint
+  - 3. Tap the icon labeled Add to Home Screen.
 
-* In order to cache dynamic content, i.e. users' inputs for withdrawals or deposits, incorporate `indexedDB` from the previous module.
+  - 4. Tap Add in the upper-right corner.
 
-* Use [Google](https://www.google.com) or another search engine to research this topic.
+  - 5. Name your PWA, then tap Add in the upper-right corner.
+
+- Android:
+
+  - 1. Navigate to Heroku
+
+  - 2. Tap the menu button in the upper right corner of Chrome.
+
+  - 3. Tap the icon labeled Add to Home Screen.
+
+  - 4. Name your PWA, then tap Add below the promp.
+
+
+
+## Questions
+
+If you have any questions about the repo, open issue or contact me directly at [hamisaacs@gmail.com](hamisaacs@gmail.com). You can find more of my work at [Hisaacs](https://github.com/Hisaacs).
