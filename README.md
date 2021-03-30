@@ -76,32 +76,6 @@ To see the app functionality, run the following command:
 npm start
 ```
 
-Follow these instructions to install a PWA for your specific smartphone OS:
-
-- iOs:
-
-  - 1. Navigate to Heroku
-
-  - 2. Tap the Share button in Safari.
-
-  - 3. Tap the icon labeled Add to Home Screen.
-
-  - 4. Tap Add in the upper-right corner.
-
-  - 5. Name your PWA, then tap Add in the upper-right corner.
-
-- Android:
-
-  - 1. Navigate to Heroku
-
-  - 2. Tap the menu button in the upper right corner of Chrome.
-
-  - 3. Tap the icon labeled Add to Home Screen.
-
-  - 4. Name your PWA, then tap Add below the promp.
-
-
-
 ## Questions
 
 If you have any questions about the repo, open issue or contact me directly at [hamisaacs@gmail.com](hamisaacs@gmail.com). You can find more of my work at [Hisaacs](https://github.com/Hisaacs).
