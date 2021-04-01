@@ -1,9 +1,13 @@
 # Budget Tracker
 
-## Preview
-## Deployed Link: https://budget-tracker-hd.herokuapp.com/
+# Deployed Link: https://budget-tracker-hd.herokuapp.com/
 
-## GitHub Link: https://github.com/Hisaacs/Budget-tracker
+# GitHub Link: https://github.com/Hisaacs/Budget-tracker
+
+## Preview
+![budget-tracker](https://user-images.githubusercontent.com/19741669/113281820-a4e68100-9318-11eb-9dfe-73a779357b72.gif)
+
+
 ## Table of Contents
 
 - [Preview](#preview)
