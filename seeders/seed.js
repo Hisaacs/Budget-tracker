@@ -1,13 +1,9 @@
-var mongoose = require("mongoose");
-var db = require("../models");
+let db = require('../models');
+const { connect } = require('./../database/connect');
 
-// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
-//   useNewUrlParser: true,
-//   useFindAndModify: false,
-// });
 connect();
 
-var transactionSeed = [
+let transactionSeed = [
   {
     name: "Vacation",
     value: 200,

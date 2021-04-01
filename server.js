@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const logger = require("morgan");
 const {connect} = require('./database/connect')
 const compression = require("compression");
+require('dotenv').config()
 
 const PORT = process.env.PORT || 3000;
 
